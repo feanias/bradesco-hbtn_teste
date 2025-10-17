@@ -61,6 +61,10 @@ public class Person {
         return salary;
     }
 
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     public void calculateYearlySalary() {
         this.salary = this.salary * 12;
     }
