@@ -65,8 +65,8 @@ public class Person {
         this.salary = salary;
     }
 
-    public void calculateYearlySalary() {
-        this.salary = this.salary * 12;
+    public float calculateYearlySalary() {
+        return this.salary = this.salary * 12;
     }
     
     public String fullName() {
